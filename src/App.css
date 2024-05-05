@@ -1,0 +1,238 @@
+/* Estilos para la barra superior */
+.Barra_Superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.Barra_Superior {
+  position: sticky;
+  top: 0;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Categorias {
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem; 
+}
+
+.Categorias a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para el widget de carrito */
+.CartContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem; 
+}
+
+.CartNotification {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Estilos para la lista de productos */
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+/* Estilos para cada producto */
+.item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.item img {
+  max-width: 100%; 
+  height: auto;
+  max-height: 200px;
+  margin-bottom: 1rem;
+}
+
+.item h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.item p {
+  margin: 0.5rem 0;
+}
+
+.item button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la página de detalles del producto */
+.item-detail {
+  text-align: center;
+  margin-top: 4rem; 
+}
+
+.item-detail img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.item-detail h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.item-detail p {
+  margin-bottom: 0.5rem;
+}
+.item-detail button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para la carga de productos */
+.loading-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 5px;
+  z-index: 9999; /* Z-index más alto */
+}
+
+/* Estilos para el carrito */
+.CartContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem; 
+}
+
+.CartNotification {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la tabla de productos en el carrito */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.cart-table td {
+  text-align: center;
+}
+
+.cart-table button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-table button:hover {
+  background-color: #c82333;
+}
+/* Estilos para el formulario de checkout */
+.CheckoutForm {
+  margin-top: 2rem;
+}
+
+.CheckoutForm label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.CheckoutForm input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.CheckoutForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CheckoutForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none;
+  color: #007bff; /* Color azul, puedes cambiarlo según tu preferencia */
+  transition: color 0.3s ease; /* Transición suave del color */
+}
+
+a:hover {
+  color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
